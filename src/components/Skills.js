@@ -25,13 +25,6 @@ function Skills() {
                                 <dt className="sm:text-2xl md:text-3xl lg:text-4xl text-green-400">Certifications</dt>
                                 <dd className="font-thin mt-2 sm:text-1xl md:text-2xl lg:text-2xl text-gray-500">UDEMY - The Web Developer Bootcamp 2022</dd>
                             </div>
-                    
-                            <div className="border-t border-gray-200 pt-4">
-                                <dt className="sm:text-2xl md:text-3xl lg:text-4xl text-green-400">References</dt>
-                                <dd className="font-thin mt-2 sm:text-1xl md:text-2xl lg:text-2xl text-gray-500">Ozzy Cardenas - Full Stack Engineer at Sprout Social</dd>
-                                <dd className="font-thin mt-2 sm:text-1xl md:text-2xl lg:text-2xl text-gray-500">Craig Culbert - CEO at First Look Appraisals</dd>
-                                <dd className="font-thin mt-2 sm:text-1xl md:text-2xl lg:text-2xl text-gray-500">Ankit Patel - Vice President of Operations at First Look Appraisals</dd>
-                            </div>
                         </dl>
                       </div>
                     </div>
