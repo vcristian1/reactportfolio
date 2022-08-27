@@ -16,7 +16,7 @@ function Header () {
                 <h1 className="tracking-tight font-extrabold text-gray-900 sm:text-3xl md:text-3xl">
                     <span className="block text-indigo-600 xl:inline"></span>
                 </h1> 
-                <p className="mt-6 font-thin text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:text-3xl lg:mx-0">I am a Full Stack Engineer and content creator focused on creating dynamic web applications using a variety of languages, technologies, and frameworks.</p>        
+                <p className="mt-6 font-thin text-1xl text-gray-500 sm:mt-5 sm:text-2xl sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:text-3xl lg:mx-0">I am a Full Stack Engineer and content creator focused on creating dynamic web applications using a variety of languages, technologies, and frameworks.</p>        
             </div>            
         </div>
     )
