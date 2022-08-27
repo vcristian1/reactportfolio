@@ -9,10 +9,10 @@ import weather from '../images/weather.png'
 function Projects() {
     
     return (
-        <div className="pt-20 lg:pt-[120px] pr-10 pb-10 lg:pb-20 bg-white">
-            <div className="container ml-16">
-            <h2 className="mb-10 text-3xl  tracking-tight sm:text-4xl">Projects</h2>
-                <div className="flex flex-wrap -mx-4">
+        <div className="p-0 bg-white">
+            <div className="container m-0">
+            <h2 className="text-center mt-5 ml-2 mb-10 lg:mt-20 tracking-tight text-4xl">Projects</h2>
+                <div className="flex flex-wrap sm:-mr-20">
                     <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                         <div className="bg-white rounded-lg overflow-hidden mb-10">
                             <img

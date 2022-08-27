@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import cvLogo from '../images/cvlogo.png'
 
 // In Navbar, we can assign a style from an object by using curly braces
 function Navbar() {
@@ -15,7 +16,7 @@ function Navbar() {
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                     <div className="flex items-center justify-between w-full md:w-auto">
                         <div>
-                            {/* <img className="h-10 w-15" src="./assets/cvlogo.png" alt=""> */}
+                            <img className="h-10 w-15" src={cvLogo} alt="logo"/>
                         </div>
                     </div>
                 </div>
@@ -23,7 +24,7 @@ function Navbar() {
                 <div id="mobile-menu" className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu hidden md:block md:ml-10 md:pr-4"}>  
                     <a href="/" className="px-2 font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 lg:text-3xl md:text-2xl sm:text-1xl">About</a>
                     
-                    <a href="/projects" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3x md:text-2xl sm:text-1xl">Projects</a>
+                    <a href="/projects" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Projects</a>
                       
                     <a href="/resume" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Resume</a>
                        
