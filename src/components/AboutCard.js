@@ -10,8 +10,7 @@ function AboutCard() {
             <div class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
                 <div class="p-4 md:p-12 text-center lg:text-left">
                     {/* <!-- Image for mobile view--> */}
-                    <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style={{
-                        backgroundImage: `url("./images/headshot.jpg")`}}>
+                    <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center" style={{ backgroundImage: `url(${headshot})` }}>
                     
                     </div>
                     
