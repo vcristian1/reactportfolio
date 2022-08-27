@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         
-        <div className="ml-4 relative pt-6 px-4 sm:px-6 lg:px-8">
+        <div className="ml-5 mr-5 relative pt-10">
             <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 {/* <!--
                     Mobile menu, show/hide based on menu open state.
@@ -21,13 +21,13 @@ function Navbar() {
                 </div>
 
                 <div id="mobile-menu" className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu hidden md:block md:ml-10 md:pr-4"}>  
-                    <a href="/" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">About</a>
+                    <a href="/" className="px-2 font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 lg:text-3xl md:text-2xl sm:text-1xl">About</a>
                     
-                    <a href="/projects" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">Projects</a>
+                    <a href="/projects" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3x md:text-2xl sm:text-1xl">Projects</a>
                       
-                    <a href="/resume" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">Resume</a>
+                    <a href="/resume" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Resume</a>
                        
-                    <a href="/contact" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">Contact</a>
+                    <a href="/contact" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Contact</a>
                 </div>
 
                 <div id="mobile_burger" className="-mr-2 flex items-center md:hidden">

@@ -9,7 +9,7 @@ import weather from '../images/weather.png'
 function Projects() {
     
     return (
-        <div className="pt-20 lg:pt-[120px] pb-10 lg:pb-20 bg-white">
+        <div className="pt-20 lg:pt-[120px] pr-10 pb-10 lg:pb-20 bg-white">
             <div className="container ml-16">
             <h2 className="mb-10 text-3xl  tracking-tight sm:text-4xl">Projects</h2>
                 <div className="flex flex-wrap -mx-4">
