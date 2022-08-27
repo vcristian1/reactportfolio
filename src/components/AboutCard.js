@@ -3,6 +3,7 @@ import headshot from '../images/headshot.jpg'
 
 // In Navbar, we can assign a style from an object by using curly braces
 function AboutCard() {
+    
     return (
         
         <div id="about" class="transform-container max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
