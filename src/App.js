@@ -7,6 +7,7 @@ import Homepage from './components/Homepage';
 import Projectspage from './components/Projectspage'
 import Skillspage from "./components/Skillspage";
 
+
 function App() {
   return (
     <div className="App">
