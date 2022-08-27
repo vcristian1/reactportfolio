@@ -21,7 +21,7 @@ function Navbar() {
                 </div>
 
                 <div id="mobile-menu" className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu hidden md:block md:ml-10 md:pr-4"}>  
-                    <a href="/about" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">About</a>
+                    <a href="/" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">About</a>
                     
                     <a href="/projects" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition relative pt-4 px-1 sm:text-1xl">Projects</a>
                       
@@ -50,5 +50,4 @@ function Navbar() {
         </div>
     );
 }
-
 export default Navbar;
