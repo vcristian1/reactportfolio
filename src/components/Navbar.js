@@ -4,36 +4,40 @@ import React from 'react'
 function Navbar() {
     return (
         
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
-        <div className="container flex flex-wrap justify-between items-center mx-auto">
-            <a href="https://flowbite.com/" className="flex items-center">
-                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
-            </a>
-            <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
-                <span className="sr-only">Open main menu</span>
-                <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
-            </button>
-            <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul className="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                    <a href="/" className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
-                    </li>
-                    <li>
-                    <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-                    </li>
-                    <li>
-                    <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
-                    </li>
-                    <li>
-                    <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
-                    </li>
-                    <li>
-                    <a href="/" className="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <div className="ml-4 relative pt-6 px-4 sm:px-6 lg:px-8">
+            <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+                {/* <!--
+                    Mobile menu, show/hide based on menu open state.
+                --> */}
+                <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                    <div className="flex items-center justify-between w-full md:w-auto">
+                        <div>
+                            {/* <img className="h-10 w-15" src="./assets/cvlogo.png" alt=""> */}
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mobile-menu" className="hidden md:block md:ml-10 md:pr-4 md:space-x-8">
+                    <a href="#about" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition">About</a>
+
+                    <a href="#projects" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition">Projects</a>
+
+                    <a href="#resume" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition">Resume</a>
+
+                    <a href="#contact" className="font-thin text-2xl text-gray-500 hover:text-green-400 transition">Contact</a>
+                </div>
+
+                <div id="mobile_burger" className="-mr-2 flex items-center md:hidden">
+                    <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-400" aria-expanded="false">
+                    <span className="sr-only">Open main menu</span>
+                    {/* <!-- Heroicon name: outline/menu --> */}
+                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    </button>
+                </div>
+            </nav>
         </div>
-    </nav>
     );
 }
 
