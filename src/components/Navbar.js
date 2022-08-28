@@ -22,13 +22,13 @@ function Navbar() {
                 </div>
 
                 <div id="mobile-menu" className={isNavExpanded ? "navigation-menu expanded" : "navigation-menu hidden md:block md:ml-10 md:pr-4"}>  
-                    <a href="/" className="px-2 font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 lg:text-3xl md:text-2xl sm:text-1xl">About</a>
+                    <a href="/reactportfolio" className="px-2 font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 lg:text-3xl md:text-2xl sm:text-1xl">About</a>
                     
-                    <a href="/projects" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Projects</a>
+                    <a href="/reactportfolio/projects" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Projects</a>
                       
-                    <a href="/resume" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Resume</a>
+                    <a href="/reactportfolio/resume" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Resume</a>
                        
-                    <a href="/contact" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Contact</a>
+                    <a href="/reactportfolio/contact" className="font-thin text-1xl text-gray-500 hover:text-green-400 transition relative pt-4 px-2 lg:text-3xl md:text-2xl sm:text-1xl">Contact</a>
                 </div>
 
                 <div id="mobile_burger" className="-mr-2 flex items-center md:hidden">

@@ -14,11 +14,10 @@ function App() {
     <div className="App">
       <Navbar />
         <Routes>
-          <Route path="" element={<Homepage />} />
-          <Route path="/projects" element={<Projectspage />} />
-          <Route path="/resume" element={<Skillspage />} />
-          <Route path="/contact" element={<Contactpage />} />
-
+          <Route path="/reactportfolio" element={<Homepage />} />
+          <Route path="/reactportfolio/projects" element={<Projectspage />} />
+          <Route path="/reactportfolio/resume" element={<Skillspage />} />
+          <Route path="/reactportfolio/contact" element={<Contactpage />} />
         </Routes>
     </div>
   );
