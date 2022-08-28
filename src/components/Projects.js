@@ -10,7 +10,7 @@ function Projects() {
     
     return (
         <div className="p-0 bg-white">
-            <div className="container md:ml-20 lg:ml-20 md:mr-20 lg:mr-20 md:mb-20 lg:mb-20 md:p-20 lg:p-20 lg:-mt-14">
+            <div className="container sm:ml-10 sm:mr-10 sm:mb-10 sm:p-10 md:ml-20 lg:ml-20 md:mr-20 lg:mr-20 md:mb-20 lg:mb-20 md:p-20 lg:p-20 lg:-mt-14">
             <h2 className="text-center mt-5 ml-2 mb-10 lg:mt-24 tracking-tight text-4xl">Projects</h2>
             <p className="m-4 font-thin mt-10 mb-10 md:text-2xl sm:text-1xl text-gray-500">Check out my most recent projects! To deploy any project, be sure to click on the project name. To view the repository, click on View Repository.</p>
                 <div className="flex flex-wrap sm:-mr-20">

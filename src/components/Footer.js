@@ -1,13 +1,14 @@
 import React from "react";
+import cvLogo from '../images/cvlogo.png';
 
 function Footer(){
     return (
         <div>
-            <footer className="p-4 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
+            <footer className="p-4 bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 dark:bg-gray-800">
                 <div>
-                    {/* <img className="mb-3 ml-4 h-10 w-15" src="./assets/cvlogo.png" alt=""> */}
+                    {/* <img className="mb-3 ml-4 h-10 w-15" src={cvLogo} alt="logo"/> */}
                 </div>
-                <span className="font-thin text-1xl text-gray-500 sm:text-center dark:text-gray-400">© 2022 <a href="#about" className="hover:text-green-400">Cristian Vargas™</a>. All Rights Reserved.
+                <span className="font-thin text-1xl text-gray-500 sm:text-left dark:text-gray-400">© 2022 <a href="#about" className="hover:text-green-400">Cristian Vargas™</a>. All Rights Reserved.
                 </span>
                 <ul className="font-thin flex flex-wrap items-center mt-3 text-1xl text-gray-500 dark:text-gray-400 sm:mt-0">
                     <li>
