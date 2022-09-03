@@ -11,7 +11,6 @@ I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
 
-
 ## Mock-Up
 
 The following animation shows the application's Desktop appearance and functionality:
@@ -26,3 +25,6 @@ The following animation shows the application's Mobile appearance and functional
 
 ## Contact Me
 Contact me at cristian.v0223@gmail.com
+
+## Deployment
+[Netlify](https://main--reliable-souffle-70edaa.netlify.app/)
