@@ -1,5 +1,5 @@
 import React from "react";
-import cvLogo from '../images/cvlogo.png';
+// import cvLogo from '../images/cvlogo.png';
 
 function Footer(){
     return (
