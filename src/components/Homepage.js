@@ -1,17 +1,16 @@
 import React from "react";
 import AboutCard from "./AboutCard";
-import Footer from "./Footer";
 import Header from "./Header"
-import Navbar from "./Navbar";
+import Layout from "./layout";
 
 function Homepage() {
     
     return (
         <div>
-            <Navbar />
-            <Header />
-            <AboutCard />
-            <Footer />
+            <Layout>
+                <Header />
+                <AboutCard />
+            </Layout>
         </div>
     );
 }

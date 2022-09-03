@@ -1,16 +1,14 @@
 import React from "react";
-import Footer from "./Footer";
 import Projects from "./Projects";
-import Navbar from "./Navbar";
+import Layout from "./layout";
+
 
 function Projectspage() {
     
     return (
-        <div>
-            <Navbar />
+        <Layout>
             <Projects />
-            <Footer />
-        </div>
+        </Layout>
     );
 }
 

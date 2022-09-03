@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.35253566.css",
-    "main.js": "./static/js/main.bd2e8f85.js",
+    "main.js": "./static/js/main.a9314118.js",
     "static/media/weather.png": "./static/media/weather.1f8582b2768fb88b3fc9.png",
     "static/media/techblog.png": "./static/media/techblog.7517fa729dfef00c1d1a.png",
     "static/media/gethigher.png": "./static/media/gethigher.392aadc21ba5c50ee9c4.png",
@@ -11,10 +11,10 @@
     "static/media/SER.pdf": "./static/media/SER.92f3a029968e5928528b.pdf",
     "index.html": "./index.html",
     "main.35253566.css.map": "./static/css/main.35253566.css.map",
-    "main.bd2e8f85.js.map": "./static/js/main.bd2e8f85.js.map"
+    "main.a9314118.js.map": "./static/js/main.a9314118.js.map"
   },
   "entrypoints": [
     "static/css/main.35253566.css",
-    "static/js/main.bd2e8f85.js"
+    "static/js/main.a9314118.js"
   ]
 }

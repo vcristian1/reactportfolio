@@ -1,15 +1,14 @@
 import React from 'react'
 import ContactCard from './ContactCard'
 import Footer from './Footer'
-import Navbar from './Navbar'
+import Layout from './layout'
 
 function Contactpage(){
     return(
-        <div>
-            <Navbar />
+        <Layout>
             <ContactCard />
             <Footer />
-        </div>
+        </ Layout>
     )
 }
 
