@@ -1,15 +1,14 @@
 import React from 'react';
-import Footer from './Footer';
 import Resume from './Resume';
 import Skills from './Skills';
+import Layout from './layout';
 
 function Skillspage() {
     return (
-        <div>
+        <Layout>
             <Resume></Resume>
             <Skills></Skills>
-            <Footer></Footer>
-        </div>
+        </Layout>
     )
 }
 
