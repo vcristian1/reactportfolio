@@ -2,14 +2,16 @@ import React from "react";
 import AboutCard from "./AboutCard";
 import Footer from "./Footer";
 import Header from "./Header"
+import Navbar from "./Navbar";
 
 function Homepage() {
     
     return (
         <div>
-            <Header></Header>
-            <AboutCard></AboutCard>
-            <Footer></Footer>
+            <Navbar />
+            <Header />
+            <AboutCard />
+            <Footer />
         </div>
     );
 }

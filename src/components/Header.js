@@ -4,7 +4,7 @@ function Header () {
 
     return (
 
-        <div class="ml-5 mr-5 transform-container lg:ml-14 lg:text-left">
+        <div className="ml-5 mr-5 transform-container lg:ml-14 lg:text-left">
             <div className="mt-10 mx-auto max-w-7xl px-4 sm:mt-14 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
                 <h1 className="text-4xl tracking-tight sm:text-5xl md:text-5xl lg:text-6xl">Hello, Im  
                     <span className="mt-2 block text-green-400 sm:text-5xl md:text-5xl lg:text-6xl"> Cristian Vargas.</span>
