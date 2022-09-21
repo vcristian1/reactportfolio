@@ -6,15 +6,16 @@ import techBlog from '../images/techblog.png'
 import weather from '../images/weather.png'
 import worldview from '../images/worldview.png'
 import texteditor from '../images/texteditor.png'
-
+import ExampleComponent from './projectsTypingComponent'
 // In Navbar, we can assign a style from an object by using curly braces
 function Projects() {
     
     return (
         <div className="p-0 bg-white">
             <div className="container sm:ml-10 sm:mr-10 sm:mb-10 sm:p-10 md:ml-20 lg:ml-20 md:mr-20 lg:mr-20 md:mb-20 lg:mb-20 md:p-20 lg:p-20 lg:-mt-14">
-            <h2 className="text-center mt-5 ml-2 mb-10 lg:mt-24 tracking-tight text-4xl">Projects</h2>
-            <p className="m-4 font-thin mt-10 mb-10 md:text-2xl sm:text-1xl text-gray-500">Check out my most recent projects! To deploy any project, be sure to click on the project name. To view the repository, click on View Repository.</p>
+            <ExampleComponent />
+            {/* <h2 className="text-center mt-5 ml-2 mb-10 lg:mt-24 tracking-tight text-4xl">Projects</h2> */}
+            <p className="m-4 font-thin mt-10 mb-10 md:text-2xl sm:text-1xl text-gray-500">To deploy any project, be sure to click on the project name. To view the repository, click on View Repository.</p>
                 <div className="flex flex-wrap sm:-mr-20">
                 <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                         <div className="bg-white rounded-lg overflow-hidden mb-10">
