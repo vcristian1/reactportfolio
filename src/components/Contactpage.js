@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactCard from './ContactCard'
+import ContactCard from './ContactCard' 
 import Layout from './layout'
 
 function Contactpage(){

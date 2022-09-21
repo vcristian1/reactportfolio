@@ -14,6 +14,62 @@ function Projects() {
             <h2 className="text-center mt-5 ml-2 mb-10 lg:mt-24 tracking-tight text-4xl">Projects</h2>
             <p className="m-4 font-thin mt-10 mb-10 md:text-2xl sm:text-1xl text-gray-500">Check out my most recent projects! To deploy any project, be sure to click on the project name. To view the repository, click on View Repository.</p>
                 <div className="flex flex-wrap sm:-mr-20">
+                <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+                        <div className="bg-white rounded-lg overflow-hidden mb-10">
+                            <img
+                            src={weather}
+                            alt="project"
+                            className="w-full"
+                            />
+                            <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                            <h3>
+                                <a
+                                    href="https://vcristian1.github.io/get-weather-api/"
+                                    className="
+                                    font-semibold
+                                    text-dark text-xl
+                                    sm:text-[22px]
+                                    md:text-xl
+                                    lg:text-[22px]
+                                    xl:text-xl
+                                    2xl:text-[22px]
+                                    mb-4
+                                    block
+                                    hover:text-green-400
+                                    transition
+                                    "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                World View
+                                </a>
+                            </h3>
+                            <p className="text-base font-thin text-body-color leading-relaxed mb-7">
+                            Built an educational application that is a visual learning resource for students of all ages to learn about historical events that occured in different centuries around the globe.
+
+                            </p>
+                            <a
+                                href="https://github.com/vcristian1/get-weather-api"
+                                className="
+                                inline-block
+                                py-2
+                                px-7
+                                border border-[#E5E7EB]
+                                rounded-full
+                                text-base text-body-color
+                                font-medium
+                                hover:border-primary hover:bg-primary hover:text-green-400
+                                transition
+                                "
+                                target="_blank"
+                                rel="noreferrer"
+                                >
+                            View Repository
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                         <div className="bg-white rounded-lg overflow-hidden mb-10">
                             <img
