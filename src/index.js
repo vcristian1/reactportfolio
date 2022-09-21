@@ -14,10 +14,10 @@ import Contactpage from "./components/Contactpage";
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
-      <Route index element={<Homepage />} />
-      <Route path="projects" element={<Projectspage />} />
-      <Route path="resume" element={<Skillspage />} />
-      <Route path="contact" element={<Contactpage />} />
+      <Route path="/" index element={<Homepage />} />
+        <Route path="/projects" element={<Projectspage />} />
+        <Route path="/resume" element={<Skillspage />} />
+        <Route path="/contact" element={<Contactpage />} />
     </Routes>
   </BrowserRouter>
   ,
