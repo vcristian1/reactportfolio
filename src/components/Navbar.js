@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import cvLogo from '../images/cvlogo.png'
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // In Navbar, we can assign a style from an object by using curly braces
 function Navbar() {

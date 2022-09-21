@@ -4,7 +4,7 @@ import React from "react";
 function Footer(){
     return (
         <div>
-            <footer className="p-4 bg-white rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6 dark:bg-gray-800">
+            <footer className="p-4 bg-gray-200 rounded-lg shadow sm:flex sm:items-center sm:justify-between sm:p-6">
                 <div>
                     {/* <img className="mb-3 ml-4 h-10 w-15" src={cvLogo} alt="logo"/> */}
                 </div>

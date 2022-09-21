@@ -4,6 +4,8 @@ import employeeTracker from '../images/employee-tracker.png'
 import noteTaker from '../images/notetaker.png'
 import techBlog from '../images/techblog.png'
 import weather from '../images/weather.png'
+import worldview from '../images/worldview.png'
+import texteditor from '../images/texteditor.png'
 
 // In Navbar, we can assign a style from an object by using curly braces
 function Projects() {
@@ -17,7 +19,118 @@ function Projects() {
                 <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                         <div className="bg-white rounded-lg overflow-hidden mb-10">
                             <img
-                            src={weather}
+                            src={worldview}
+                            alt="project"
+                            className="w-full"
+                            />
+                            <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                            <h3>
+                                <a
+                                    href="https://my-world-view.herokuapp.com/"
+                                    className="
+                                    font-semibold
+                                    text-dark text-xl
+                                    sm:text-[22px]
+                                    md:text-xl
+                                    lg:text-[22px]
+                                    xl:text-xl
+                                    2xl:text-[22px]
+                                    mb-4
+                                    block
+                                    hover:text-green-400
+                                    transition
+                                    "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                World View
+                                </a>
+                            </h3>
+                            <p className="text-base font-thin text-body-color leading-relaxed mb-7">
+                            An educational application that is a visual learning resource for students of all ages to learn about historical events that occured in different centuries around the globe.
+
+                            </p>
+                            <a
+                                href="https://github.com/vcristian1/WorldView/tree/main"
+                                className="
+                                inline-block
+                                py-2
+                                px-7
+                                border border-[#E5E7EB]
+                                rounded-full
+                                text-base text-body-color
+                                font-medium
+                                hover:border-primary hover:bg-primary hover:text-green-400
+                                transition
+                                "
+                                target="_blank"
+                                rel="noreferrer"
+                                >
+                            View Repository
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+                        <div className="bg-white rounded-lg overflow-hidden mb-10">
+                            <img
+                            src={getHigher}
+                            alt="project"
+                            className="w-full"
+                            />
+                            <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                            <h3>
+                                <a
+                                    href="https://get-higher.herokuapp.com"
+                                    className="
+                                    font-semibold
+                                    text-dark text-xl
+                                    sm:text-[22px]
+                                    md:text-xl
+                                    lg:text-[22px]
+                                    xl:text-xl
+                                    2xl:text-[22px]
+                                    mb-4
+                                    block
+                                    hover:text-green-400
+                                    transition
+                                    "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                Get Higher
+                                </a>
+                            </h3>
+                            <p className="text-base font-thin text-body-color leading-relaxed mb-7">
+                                A Full Stack Web Application that functions as the all in one place to find the career field that fits best for you, and the jobs that are available right now. Complete our Career Match Quiz to see which field you may fit best in based on your personality.
+                            </p>
+                            <a
+                                href="https://github.com/vcristian1/GetHigher"
+                                className="
+                                inline-block
+                                py-2
+                                px-7
+                                border border-[#E5E7EB]
+                                rounded-full
+                                text-base text-body-color
+                                font-medium
+                                hover:border-primary hover:bg-primary hover:text-green-400
+                                transition
+                                "
+                                target="_blank"
+                                rel="noreferrer"
+                                >
+                            View Repository
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+                        <div className="bg-white rounded-lg overflow-hidden mb-10">
+                            <img
+                            src={texteditor}
                             alt="project"
                             className="w-full"
                             />
@@ -41,12 +154,11 @@ function Projects() {
                                     target="_blank"
                                     rel="noreferrer"
                                     >
-                                World View
+                                PWA Text-Editor
                                 </a>
                             </h3>
                             <p className="text-base font-thin text-body-color leading-relaxed mb-7">
-                            Built an educational application that is a visual learning resource for students of all ages to learn about historical events that occured in different centuries around the globe.
-
+                            A single-page Text Editor application that meets the PWA criteria. It features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser allowing the application to function offline.
                             </p>
                             <a
                                 href="https://github.com/vcristian1/get-weather-api"
@@ -105,61 +217,6 @@ function Projects() {
                             </p>
                             <a
                                 href="https://github.com/vcristian1/get-weather-api"
-                                className="
-                                inline-block
-                                py-2
-                                px-7
-                                border border-[#E5E7EB]
-                                rounded-full
-                                text-base text-body-color
-                                font-medium
-                                hover:border-primary hover:bg-primary hover:text-green-400
-                                transition
-                                "
-                                target="_blank"
-                                rel="noreferrer"
-                                >
-                            View Repository
-                            </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="w-full md:w-1/2 xl:w-1/3 px-4">
-                        <div className="bg-white rounded-lg overflow-hidden mb-10">
-                            <img
-                            src={getHigher}
-                            alt="project"
-                            className="w-full"
-                            />
-                            <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                            <h3>
-                                <a
-                                    href="https://get-higher.herokuapp.com"
-                                    className="
-                                    font-semibold
-                                    text-dark text-xl
-                                    sm:text-[22px]
-                                    md:text-xl
-                                    lg:text-[22px]
-                                    xl:text-xl
-                                    2xl:text-[22px]
-                                    mb-4
-                                    block
-                                    hover:text-green-400
-                                    transition
-                                    "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    >
-                                Get Higher
-                                </a>
-                            </h3>
-                            <p className="text-base font-thin text-body-color leading-relaxed mb-7">
-                                A Full Stack Web Application that functions as the all in one place to find the career field that fits best for you, and the jobs that are available right now. Complete our Career Match Quiz to see which field you may fit best in based on your personality.
-                            </p>
-                            <a
-                                href="https://github.com/vcristian1/GetHigher"
                                 className="
                                 inline-block
                                 py-2
