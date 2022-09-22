@@ -4,13 +4,13 @@ function ContactCard() {
     return (
         <div className="m-4 mb-20 mx-8 md:ml-20 lg:ml-20 md:mr-20 lg:mr-20 md:mb-20 lg:mb-20 md:p-20 lg:p-20 lg:-mt-14">
             {/* <!-- ====== Contact Section Start --> */}
-            <section className="bg-white lg:py-[120px] overflow-hidden relative z-10 mb-20">
-                <div className="mt-5 w-full lg:w-1/2 xl:w-6/12 px-4">
-                    <div className="max-w-[570px] lg:mb-0">
+            <section className="bg-white lg:py-[120px] lg:-mt-6 overflow-hidden relative z-10 mb-20">
+                <div className="mt-5 w-full lg:w-full xl:w-full px-4">
+                    <div className="max-w-[570px] lg:w-full">
                         <h1 className="text-4xl mb-6 tracking-tight sm:text-5xl md:text-5xl lg:text-6xl">Contact Me  
                             <span className="text-green-400 sm:text-5xl md:text-5xl lg:text-6xl "> Now!</span>
                         </h1>
-                        <p className="font-thin text-base text-body-color leading-relaxed mb-9">
+                        <p className="md:ml-0 mt-6 font-thin text-1xl text-gray-500 sm:mt-5 sm:text-2xl sm:max-w-xl sm:mx-auto md:mt-10 md:text-2xl lg:text-3xl mb-9 lg:max-w-xl lg:mx-auto">
                             If you are interested in collaborating on any projects, or if you are an employer looking to hire, please reach out to me via any of the options below.
                         </p>
                         <div className="flex mb-8 max-w-[370px] w-full">
