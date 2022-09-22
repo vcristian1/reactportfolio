@@ -12,16 +12,14 @@ const headerTypingComponent = () => {
             'Nice to meet you!', // Types 'Three' without deleting 'Two'
             2000, // Waits 1s
             () => {
-            console.log('Done typing!'); // Place optional callbacks anywhere in the array
+            
             }
         ]}
-        className='text-green-400'
+        className='text-green-400 md:ml-16 text-3xl sm:text-4xl md:text-5xl lg:text-6xl lg:ml-0'
         wrapper="div"
         cursor={true}
         repeat={Infinity}
-        style={{ fontSize: '6em',
-
-    }}
+        
         />
     </div>
   );

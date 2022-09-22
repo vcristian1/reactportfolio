@@ -4,6 +4,7 @@ const projectsTypingComponent = () => {
   return (
     <div >
         <TypeAnimation
+        className='text-center text-2xl sm:text-4xl md:text-5xl lg:text-5xl'
         sequence={[
             'Projects', 
             3000,
@@ -13,13 +14,10 @@ const projectsTypingComponent = () => {
             console.log('Done typing!'); // Place optional callbacks anywhere in the array
             }
         ]}
-        className='text-center'
         wrapper="div"
         cursor={true}
         repeat={Infinity}
-        style={{ fontSize: '3em',
-
-    }}
+        
         />
     </div>
   );
