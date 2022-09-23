@@ -25,6 +25,176 @@ function Projects() {
                                 className="w-full"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>React.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>MongoDB
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Mongoose
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Bootstrap React
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>GraphQL
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Apollo
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Three.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>React-Three-Fiber
+                                </div>
                                 <h3>
                                     <a
                                         href="https://my-world-view.herokuapp.com/"
@@ -81,6 +251,142 @@ function Projects() {
                                 className="w-full"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>MySQL
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>JAWSDB
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Google Maps API
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Google Job Search API
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express-Handlebars
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Tailwind CSS
+                                </div>
                                 <h3>
                                     <a
                                         href="https://get-higher.herokuapp.com"
@@ -136,6 +442,91 @@ function Projects() {
                                 className="w-full"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Webpack
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>IndexedDB
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Babel
+                                </div>
                                 <h3>
                                     <a
                                         href="https://vcristian1.github.io/get-weather-api/"
@@ -191,6 +582,92 @@ function Projects() {
                                 className="w-full"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Open Weather API
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Unsplash API
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>HTML5
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>CSS3
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Javascript
+                                </div>
                                 <h3>
                                     <a
                                         href="https://vcristian1.github.io/get-weather-api/"
@@ -246,6 +723,142 @@ function Projects() {
                                 className="w-full"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>MySQL
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Nodemon
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Bcrypt
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Sequelize
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express-Handlebars
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express-Session
+                                </div>
                                     <h3>
                                         <a
                                             href="https://immense-mesa-39928.herokuapp.com/"
@@ -301,6 +914,91 @@ function Projects() {
                                 className="w-full ml-4"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Javascript
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>MySQL
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Inquirer
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Console.table
+                                </div>
                                 <h3>
                                     <a
                                         href="https://drive.google.com/file/d/1eeJ1vqruyNjNho3A7iGV1cNJHj9NbOXI/view"
@@ -356,6 +1054,91 @@ function Projects() {
                                 className="w-full ml-4"
                                 />
                                 <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>HTML5
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>CSS3
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Javascript
+                                </div>
                                 <h3>
                                     <a
                                         href="https://note-taker-demo-nu.herokuapp.com/"
