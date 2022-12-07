@@ -529,7 +529,7 @@ function Projects() {
                                 </div>
                                 <h3>
                                     <a
-                                        href="https://vcristian1.github.io/get-weather-api/"
+                                        href="https://pwa-text-editor-demo.herokuapp.com/"
                                         className="
                                         font-semibold
                                         text-dark text-xl
