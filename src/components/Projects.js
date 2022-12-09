@@ -5,7 +5,7 @@ import noteTaker from '../images/notetaker.png'
 import techBlog from '../images/techblog.png'
 import weather from '../images/weather.png'
 import worldview from '../images/worldview.png'
-import texteditor from '../images/texteditor.png'
+import yelpcamp from '../images/yelpcamp.png'
 import ExampleComponent from './projectsTypingComponent'
 // In Navbar, we can assign a style from an object by using curly braces
 function Projects() {
@@ -18,6 +18,181 @@ function Projects() {
                 <p className="m-4 font-thin mt-5 mb-10 md:text-2xl sm:text-1xl text-gray-500">To deploy any project, be sure to click on the project name. To view the repository, click on View Repository.</p>
                 <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+                            <div className="bg-white rounded-lg overflow-hidden mb-10">
+                                <img
+                                src={yelpcamp}
+                                alt="project"
+                                className="w-full"
+                                />
+                                <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>MongoDB
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Cloudinary
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Mapbox API
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Bootstrap
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>EJS
+                                </div>
+                                
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Express.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js
+                                </div>
+                                <h3>
+                                    <a
+                                        href="https://hidden-tor-07938.herokuapp.com/"
+                                        className="
+                                        font-semibold
+                                        text-dark text-xl
+                                        sm:text-[22px]
+                                        md:text-xl
+                                        lg:text-[22px]
+                                        xl:text-xl
+                                        2xl:text-[22px]
+                                        mb-4
+                                        block
+                                        hover:text-green-400
+                                        transition
+                                        "
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        >
+                                    Yelpcamp
+                                    </a>
+                                </h3>
+                                <p className="text-base font-thin text-body-color leading-relaxed mb-7">
+                                Yelpcamp is a user review and recommendation application of the best campgrounds in the USA. The idea is based off of the app Yelp which is a company that publishes crowd-sourced reviews about businesses.
+                                </p>
+                                <a
+                                    href="https://github.com/vcristian1/yelpcamp"
+                                    className="
+                                    inline-block
+                                    py-2
+                                    px-7
+                                    border border-[#E5E7EB]
+                                    rounded-full
+                                    text-base text-body-color
+                                    font-medium
+                                    hover:border-primary hover:bg-primary hover:text-green-400
+                                    transition
+                                    "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                View Repository
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full md:w-1/2 xl:w-1/3 px-4">
                             <div className="bg-white rounded-lg overflow-hidden mb-10">
                                 <img
                                 src={worldview}
@@ -414,146 +589,6 @@ function Projects() {
                                 </p>
                                 <a
                                     href="https://github.com/vcristian1/GetHigher"
-                                    className="
-                                    inline-block
-                                    py-2
-                                    px-7
-                                    border border-[#E5E7EB]
-                                    rounded-full
-                                    text-base text-body-color
-                                    font-medium
-                                    hover:border-primary hover:bg-primary hover:text-green-400
-                                    transition
-                                    "
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    >
-                                View Repository
-                                </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="w-full md:w-1/2 xl:w-1/3 px-4">
-                            <div className="bg-white rounded-lg overflow-hidden mb-10">
-                                <img
-                                src={texteditor}
-                                alt="project"
-                                className="w-full"
-                                />
-                                <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
-                                <div
-                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
-                                >
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="0"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    className="feather feather-arrow-right mr-2"
-                                    >
-                                    </svg>Webpack
-                                </div>
-                                <div
-                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
-                                >
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="0"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    className="feather feather-arrow-right mr-2"
-                                    >
-                                    </svg>Express.js
-                                </div>
-                                <div
-                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
-                                >
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="0"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    className="feather feather-arrow-right mr-2"
-                                    >
-                                    </svg>IndexedDB
-                                </div>
-                                <div
-                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
-                                >
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="0"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    className="feather feather-arrow-right mr-2"
-                                    >
-                                    </svg>Node.js
-                                </div>
-                                <div
-                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
-                                >
-                                    <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="0"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    className="feather feather-arrow-right mr-2"
-                                    >
-                                    </svg>Babel
-                                </div>
-                                <h3>
-                                    <a
-                                        href="https://pwa-text-editor-demo.herokuapp.com/"
-                                        className="
-                                        font-semibold
-                                        text-dark text-xl
-                                        sm:text-[22px]
-                                        md:text-xl
-                                        lg:text-[22px]
-                                        xl:text-xl
-                                        2xl:text-[22px]
-                                        mb-4
-                                        block
-                                        hover:text-green-400
-                                        transition
-                                        "
-                                        target="_blank"
-                                        rel="noreferrer"
-                                        >
-                                    PWA Text-Editor
-                                    </a>
-                                </h3>
-                                <p className="text-base font-thin text-body-color leading-relaxed mb-7">
-                                A single-page Text Editor application that meets the PWA criteria. It features a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser allowing the application to function offline.
-                                </p>
-                                <a
-                                    href="https://github.com/vcristian1/get-weather-api"
                                     className="
                                     inline-block
                                     py-2
