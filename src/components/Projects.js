@@ -1,7 +1,5 @@
 import React from 'react'
 import getHigher from '../images/gethigher.png'
-import employeeTracker from '../images/employee-tracker.png'
-import techBlog from '../images/techblog.png'
 import weather from '../images/weather.png'
 import worldview from '../images/worldview.png'
 import yelpcamp from '../images/yelpcamp.png'
