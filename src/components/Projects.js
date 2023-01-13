@@ -110,7 +110,7 @@ function Projects() {
                                 </div>
                                 <h3>
                                     <a
-                                        href="https://nextflix-react-g3pz6b9s9-vcristian1.vercel.app/"
+                                        href="https://nextflix-react.vercel.app/"
                                         className="
                                         font-semibold
                                         text-dark text-xl
