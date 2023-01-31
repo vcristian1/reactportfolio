@@ -15,7 +15,7 @@ function Header () {
                     <span className="opacity-70	block text-black text-4xl xl:inline sm:text-5xl md:text-5xl lg:text-6xl"> to meet you!</span>
                 </h1>*/}
 
-                <p className="md:ml-16 mt-6 font-thin text-1xl text-gray-500 sm:mt-5 sm:text-2xl sm:max-w-xl sm:mx-auto md:mt-10 md:text-2xl lg:text-3xl lg:mx-0">I am a Full Stack Engineer and content creator focused on creating dynamic web applications using a variety of languages, technologies, and frameworks.</p>         
+                <p className="md:ml-16 mt-6 font-thin text-1xl text-gray-500 sm:mt-5 sm:text-2xl sm:max-w-xl sm:mx-auto md:mt-10 md:text-2xl lg:text-3xl lg:mx-0">I am a Front-End Software Engineer and content creator focused on creating dynamic web applications using a variety of javascript based technologies, and frameworks.</p>         
             </div>            
         </div>
         
