@@ -1,5 +1,5 @@
 import React from 'react'
-import resumePdf from '../images/SER.pdf'
+import resumePdf from '../images/2023-SER.pdf'
 import ExampleComponent from './resumeTypingComponent'
 function Resume () {
     return (
