@@ -5,6 +5,7 @@ import worldview from '../images/worldview.png'
 import yelpcamp from '../images/yelpcamp.png'
 import ExampleComponent from './projectsTypingComponent'
 import nextflix from '../images/nextflix.png'
+import nexttask from '../images/next-task.png'
 // In Navbar, we can assign a style from an object by using curly braces
 function Projects() {
     
@@ -135,6 +136,181 @@ function Projects() {
                                 </p>
                                 <a
                                     href="https://github.com/vcristian1/Nextflix-React"
+                                    className="
+                                    inline-block
+                                    py-2
+                                    px-7
+                                    border border-[#E5E7EB]
+                                    rounded-full
+                                    text-base text-body-color
+                                    font-medium
+                                    hover:border-primary hover:bg-primary hover:text-green-400
+                                    transition
+                                    "
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    >
+                                View Repository
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="w-full md:w-1/2 xl:w-1/3 px-4">
+                            <div className="bg-white rounded-lg overflow-hidden mb-10">
+                                <img
+                                src={nexttask}
+                                alt="project"
+                                className="w-full"
+                                />
+                                <div className="p-8 sm:p-9 md:p-7 xl:p-9 text-center">
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Next.js
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Typescript
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Prisma
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Postgres
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Tailwind
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Node.js 
+                                </div>
+                                <div
+                                    className="ml-1 text-xs inline-flex items-center font-bold leading-sm uppercase px-3 py-1 bg-green-200 text-green-700 rounded-full"
+                                >
+                                    <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="0"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    className="feather feather-arrow-right mr-2"
+                                    >
+                                    </svg>Vercel 
+                                </div>
+                                <h3>
+                                    <a
+                                        href="https://next-task-git-main-vcristian1.vercel.app/signin"
+                                        className="
+                                        font-semibold
+                                        text-dark text-xl
+                                        sm:text-[22px]
+                                        md:text-xl
+                                        lg:text-[22px]
+                                        xl:text-xl
+                                        2xl:text-[22px]
+                                        mb-4
+                                        block
+                                        hover:text-green-400
+                                        transition
+                                        "
+                                        target="_blank"
+                                        rel="noreferrer"
+                                        >
+                                    Next to Easy
+                                    </a>
+                                </h3>
+                                <p className="text-base font-thin text-body-color leading-relaxed mb-7">
+                                Next to Easy is a project and task management application for the busy bees in the world. Manage your projects and the tasks to complete them all in one place, and use the calendar to organize your time.
+
+                                </p>
+                                <a
+                                    href="https://github.com/vcristian1/next-task"
                                     className="
                                     inline-block
                                     py-2
